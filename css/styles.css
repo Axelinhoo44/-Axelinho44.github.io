@@ -369,6 +369,29 @@ footer p:nth-child(2){
   background-color: #CD3700;
   border-color: #CD3700;
 }
+.Disc{
+  padding: 100px 20px;
+  display: inline-block;
+}
+.Disc img{
+  min-height: auto;
+  max-width: 500px;
+  padding-left: 50px;
+  order: 2;
+}
+.Disc h2{
+  padding-left: 50px;
+}
+.Disc p{
+  max-width: 75%;
+  padding: 30px;
+  order: 1;
+}
+.Disc button{
+margin-left: 50px;
+margin-bottom: 50px;
+
+}
 @media (max-width: 1270px){
   nav{
     padding: 18px 4%;
@@ -445,6 +468,29 @@ h2{
   margin-bottom: 0.5rem;
   border-radius: 10px;
 }
+.Disc{
+  padding: 5px 0px;
+  padding-top: 5px;
+}
+.Disc img{
+  min-height: auto;
+  max-width: 300px;
+  padding-left: 50px;
+  order: 2;
+}
+.Disc h2{
+  padding-left: 50px;
+}
+.Disc p{
+  max-width: 80%;
+  padding: 30px;
+  order: 1;
+}
+.Disc button{
+margin-left: 50px;
+margin-bottom: 50px;
+
+}
 @media (max-width: 768px){
   nav{
     padding: 12px 3%;
@@ -491,4 +537,27 @@ transition: .4s;
   max-width: 100%;
   padding: 80px 30px;
   border-radius: 5px;
+}
+.Disc{
+  padding: 0px 0px;
+  padding-top: 5px;
+  margin-bottom: 20px;
+}
+.Disc img{
+  min-height: auto;
+  max-width: 250px;
+  padding-left: 50px;
+  order: 2;
+}
+.Disc h2{
+  padding-left: 50px;
+  padding: 10px;
+
+}
+.Disc p{
+  max-width: 100%;
+  padding: 15px;
+  font-size: 15px;
+  letter-spacing: inherit;
+  order: 1;
 }
